@@ -114,8 +114,9 @@ header .grid-1 a {
 }
 
 header .grid-2 img {
-    max-width: 600px;
-    width: 60vw;
+    max-width: 400px;
+    width: 50vw;
+    max-height: 500px;
     margin-top: -20px;
 }
 
@@ -142,6 +143,11 @@ header .grid-2 img {
 
     header .grid-1 a {
         font-size: 13px;
+    }
+
+    header .grid-2 img {
+        height: 300px;
+        width: 250px;
     }
 }
 
